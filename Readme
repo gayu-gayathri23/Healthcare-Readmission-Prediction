@@ -1,0 +1,58 @@
+📌 Problem Statement
+
+Hospital readmissions within 30 days increase operational costs and impact patient outcomes. 
+This project aims to predict 30-day readmission risk using patient demographic, clinical, and operational data, and segment patients into risk groups.
+
+📊 Dataset
+
+3,000 patient records
+
+Features: demographics, treatment metrics, cost, satisfaction
+
+Target: readmitted_30d (0/1)
+
+🛠 Tools & Technologies
+
+Python (pandas, scikit-learn, seaborn)
+
+SQL (MySQL)
+
+Logistic Regression
+
+Random Forest
+
+K-Means Clustering
+
+Power BI / Tableau (optional)
+
+🔍 Project Workflow
+
+SQL-based exploratory analysis
+
+EDA & Feature Engineering
+
+Logistic Regression & Random Forest modeling
+
+Model Evaluation (Accuracy, Recall, ROC-AUC)
+
+K-Means Clustering for patient segmentation
+
+Business insights generation
+
+📈 Key Insights
+
+Longer hospital stay and higher medication count increase readmission risk
+
+High-cost patients form a distinct high-risk cluster
+
+Random Forest outperformed Logistic Regression in predictive performance
+
+💼 Business Impact
+
+This model can help hospitals:
+
+Identify high-risk patients before discharge
+
+Reduce avoidable readmissions
+
+Optimize resource allocation
